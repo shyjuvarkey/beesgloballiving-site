@@ -179,11 +179,11 @@
     font-size:0.68rem;letter-spacing:0.08em;text-transform:uppercase;color:var(--ink-soft);
     border-radius:2px;background:var(--linen);
   }
-  .about-figure{position:relative;background:#efe8da;border:1px solid var(--line);display:flex;align-items:center;justify-content:center;overflow:hidden;height:420px;}
-  .about-figure img{border-radius:0;width:100%;height:100%;object-fit:contain;}
+  .about-figure{position:relative;background:#efe8da;border:1px solid var(--line);overflow:hidden;}
+  .about-figure img{display:block;width:100%;height:auto;}
   .about-tag{
-    position:absolute;bottom:-20px;left:-20px;background:var(--ink);color:var(--linen);
-    padding:18px 22px;max-width:230px;
+    position:static;margin-top:16px;background:var(--ink);color:var(--linen);
+    padding:18px 22px;max-width:none;
   }
   @media(max-width:520px){.about-tag{position:static;margin-top:16px;max-width:none;}}
   .about-tag .num{font-family:'Playfair Display',serif;font-size:1.8rem;color:var(--brass-light);}
