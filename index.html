@@ -179,8 +179,8 @@
     font-size:0.68rem;letter-spacing:0.08em;text-transform:uppercase;color:var(--ink-soft);
     border-radius:2px;background:var(--linen);
   }
-  .about-figure{position:relative;}
-  .about-figure img{border-radius:2px;}
+  .about-figure{position:relative;background:#efe8da;border:1px solid var(--line);display:flex;align-items:center;justify-content:center;overflow:hidden;height:420px;}
+  .about-figure img{border-radius:0;width:100%;height:100%;object-fit:contain;}
   .about-tag{
     position:absolute;bottom:-20px;left:-20px;background:var(--ink);color:var(--linen);
     padding:18px 22px;max-width:230px;
@@ -224,8 +224,8 @@
   .gal-grid{
     display:grid;grid-template-columns:repeat(4,1fr);grid-auto-rows:220px;gap:10px;
   }
-  .gal-grid figure{margin:0;position:relative;overflow:hidden;border-radius:2px;}
-  .gal-grid img{width:100%;height:100%;object-fit:cover;transition:transform .5s ease;}
+  .gal-grid figure{margin:0;position:relative;overflow:hidden;border-radius:2px;background:#efe8da;display:flex;align-items:center;justify-content:center;}
+  .gal-grid img{width:100%;height:100%;object-fit:contain;transition:transform .5s ease;}
   .gal-grid figure:hover img{transform:scale(1.06);}
   .gal-grid figcaption{
     position:absolute;left:0;right:0;bottom:0;padding:14px;
@@ -337,7 +337,7 @@
       </div>
     </div>
     <div class="about-figure">
-      <img src="assets/linen-fold.jpg" alt="Folded Hibernation Global Living cotton linen with branded hang tag">
+      <img src="assets/product-pouch.jpg" alt="Hibernation Global Living luxury bed linen packaging">
       <div class="about-tag">
         <div class="num">100%</div>
         <div class="lbl">Long-staple cotton, mill-tested before export</div>
